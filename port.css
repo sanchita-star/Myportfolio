@@ -1,42 +1,44 @@
+/* ==== Dark Pink Blossom Background ==== */
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #fefcea, #f1dae0);
-  color: #333;
+  background: linear-gradient(135deg, #2a0a25, #4a0e3d);
+  color: #fbe4f0;
   padding: 30px;
   line-height: 1.7;
 }
 
-/* ==== Header Section ==== */
+/* ==== Header ==== */
 header {
-  background: linear-gradient(120deg, #f093fb, #f5576c);
+  background: linear-gradient(120deg, #ff6f91, #ff4e8a);
   color: white;
   padding: 40px 20px;
   border-radius: 12px;
   text-align: center;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 25px rgba(255, 105, 180, 0.4);
 }
 
 header h1 {
   font-size: 2.8rem;
   margin: 0;
   letter-spacing: 1px;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
 header p {
   font-size: 1.2rem;
   margin-top: 10px;
   font-style: italic;
+  color: #ffe4f0;
 }
 
-/* ==== Section Styling ==== */
+/* ==== Sections ==== */
 section {
-  background: white;
+  background: #3c0e2f;
   margin-top: 40px;
   padding: 30px;
   border-radius: 15px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease;
 }
 
@@ -44,10 +46,10 @@ section:hover {
   transform: scale(1.02);
 }
 
-/* ==== Headings ==== */
+/* ==== Section Headings ==== */
 h2 {
-  color: #e44d87;
-  border-bottom: 2px solid #eec6d2;
+  color: #ff9ac1;
+  border-bottom: 2px solid #ffb7d5;
   padding-bottom: 5px;
   font-size: 1.8rem;
 }
@@ -56,20 +58,20 @@ h2 {
 .divider {
   text-align: center;
   font-size: 1.5rem;
-  color: #d85a92;
+  color: #ffc9e3;
   margin: 30px 0;
 }
 
 /* ==== Links ==== */
 a {
-  color: #f5576c;
+  color: #ff95bd;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #8e44ad;
+  color: #ff4e8a;
   text-decoration: underline;
 }
 
@@ -85,30 +87,31 @@ li {
 
 /* ==== Details Tag ==== */
 details {
-  background-color: #fff3f7;
+  background-color: #521537;
   padding: 15px;
-  border-left: 4px solid #f093fb;
+  border-left: 4px solid #ff85b3;
   border-radius: 8px;
   margin-top: 20px;
   font-style: italic;
+  color: #f8d7ec;
 }
 
 summary {
   cursor: pointer;
   font-weight: bold;
-  color: #c0392b;
+  color: #ffb6d1;
 }
 
 /* ==== Blockquote ==== */
 blockquote {
   margin-top: 10px;
   font-style: italic;
-  color: #7f8c8d;
-  border-left: 4px solid #e74c3c;
+  color: #f0aac2;
+  border-left: 4px solid #ff6f91;
   padding-left: 15px;
 }
 
-/* ==== Responsive Design ==== */
+/* ==== Responsive ==== */
 @media screen and (max-width: 768px) {
   body {
     padding: 20px;
@@ -126,3 +129,4 @@ blockquote {
     font-size: 1.5rem;
   }
 }
+
