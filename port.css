@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #fefcea, #f1dae0);
+  color: #333;
+  padding: 30px;
+  line-height: 1.7;
+}
+
+/* ==== Header Section ==== */
+header {
+  background: linear-gradient(120deg, #f093fb, #f5576c);
+  color: white;
+  padding: 40px 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin: 0;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* ==== Section Styling ==== */
+section {
+  background: white;
+  margin-top: 40px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.02);
+}
+
+/* ==== Headings ==== */
+h2 {
+  color: #e44d87;
+  border-bottom: 2px solid #eec6d2;
+  padding-bottom: 5px;
+  font-size: 1.8rem;
+}
+
+/* ==== Dividers ==== */
+.divider {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #d85a92;
+  margin: 30px 0;
+}
+
+/* ==== Links ==== */
+a {
+  color: #f5576c;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #8e44ad;
+  text-decoration: underline;
+}
+
+/* ==== Lists ==== */
+ul, ol {
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* ==== Details Tag ==== */
+details {
+  background-color: #fff3f7;
+  padding: 15px;
+  border-left: 4px solid #f093fb;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #c0392b;
+}
+
+/* ==== Blockquote ==== */
+blockquote {
+  margin-top: 10px;
+  font-style: italic;
+  color: #7f8c8d;
+  border-left: 4px solid #e74c3c;
+  padding-left: 15px;
+}
+
+/* ==== Responsive Design ==== */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
