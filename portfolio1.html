@@ -3,17 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <title>Sanchita's Portfolio</title>
-  <link rel="stylesheet" href="port.css"> 
+  <style>
+    body {
+  font-family: 'Courier New', Courier, monospace;
+  background: #121212; 
+  color: #f5f5f5;       
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #1e1e1e; 
+  color: #ff7a59;      
+  padding: 2em 1em 1em 1em;
+  text-align: center;
+  letter-spacing: 0.1em;/* em is unit of measurement in css we dont find its full form sanchita*/
+      color: #ff7a59;
+
+  border-bottom: 8px double #ff7a59;
+}
+
+section {
+  margin: 2em auto;
+  max-width: 600px;
+  background: #2a2a2a; 
+  box-shadow: 0 0 12px rgba(255, 122, 89, 0.1); 
+  border-radius: 18px;
+  padding: 2em;
+  position: relative;
+}
+
+h2 {
+  color: #ff7a59;
+  text-shadow: 1px 1px 0 #3d3d3d;
+  margin-top: 0;
+}
+
+.divider {
+  text-align: center;
+  margin: 2em 0;
+  font-size: 2em;
+  color: #ff7a59;
+  opacity: 0.7;
+  letter-spacing: 0.25em;
+}
+
+details {
+  margin-top: 1em;
+  background: #3d3d3d;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+details[open] summary::after {
+  content: "▲";
+  float: right;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a {
+  color: #ff7a59;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  section {
+    padding: 1em;
+  }
+}
+  </style>
 </head>
 <body>
-
   <header>
+    
     <h1>Welcome to My Creative Portfolio</h1>
-    <p><em>DIRECTOR - SANCHITA PATIL</em></p>
+                           <p><em>DIRECTOR - SANCHITA PATIL</em></p>
   </header>
-
   <div class="divider">✦ ✦ ✦</div>
-
   <section>
     <h2>About Me</h2>
     <p>
@@ -24,49 +101,45 @@
       I once made a website that runs entirely on food! 😊
     </details>
   </section>
-
   <div class="divider">☆ ★ ☆</div>
-
   <section>
     <h2>Skills</h2>
     <ul>
       <li>HTML5</li>
       <li>CSS</li>
-      <li>JavaScript</li>
+      <li>JS</li>
       <li>PHP</li>
-      <li>Java Core</li>
+      <li>JavaCore</li>
       <li>JDBC</li>
       <li>Kotlin</li>
       <li>Windows Programming</li>
     </ul>
-    <details>
-      <summary>My secret skill?</summary>
+    <details><!--data is hidden until I click on details tag-->
+      <summary>My secret skill?</summary><!--summary tag just shows text on screen as output-->
       Turning boring layouts into dazzling, memorable experiences.
     </details>
   </section>
-
   <section>
-    <h2>Development Tools and IDEs I Use</h2>
+    <h2>Development Tools and IDEs I use</h2>
     <ul>
       <li>Android Studio</li>
       <li>Eclipse</li>
-      <li>Visual Studio Code</li>
+      <li>Visual Studio Code </li>
       <li>Visual Studio 2022</li>
       <li>IntelliJ IDEA Community Edition</li>
     </ul>
-    <details>
-      <summary>My secret skill?</summary>
+    <details><!--data is hidden until I click on details tag-->
+      <summary>My secret skill?</summary><!--summary tag just shows text on screen as output-->
       Turning boring layouts into dazzling, memorable experiences.
     </details>
   </section>
-
-  <div class="divider">✹ ✹ ✹</div>
-
+  <div class="divider">✹ ✹ ✹</div><!--divider tag divide krty varcha part vare khalcha khale middle la he emoji-->
   <section>
     <h2>Projects</h2>
     <ol>
       <li>
-        <b>Indofood Website</b><br>
+        <b>Indofood Website</b>
+        <br>
         <small>A creative Indian recipe website with interactive games, 3D dish previews, login system, and email-based feedback.</small>
       </li>
       <li>
@@ -77,23 +150,26 @@
       </li>
     </ol>
   </section>
-
   <div class="divider">✧ ✧ ✧</div>
-
   <section>
     <h2>Contact</h2>
     <p>
       Let's connect! You can reach me at:
       <br>
+      
       <b>Email:</b> <a href="mailto:patilsanchita2004@gmail.com">patilsanchita2004@gmail.com</a><br>
-      <a href="https://www.linkedin.com/in/yourprofile" target="_blank">🔗 LinkedIn</a><br>
-      <a href="https://github.com/yourusername" target="_blank">🐙 GitHub</a>
+       <a href="https://www.linkedin.com/in/yourprofile" target="_blank">🔗 LinkedIn</a><br>
+        <a href="https://github.com/yourusername" target="_blank">🐙 GitHub</a>
+       
+
+       
     </p>
     <details>
       <summary>See a cool quote!</summary>
-      <blockquote>“Creativity is intelligence having fun.”</blockquote>
+      <blockquote>
+        “Creativity is intelligence having fun.” 
+      </blockquote>
     </details>
   </section>
-
 </body>
 </html>
